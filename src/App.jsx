@@ -30,7 +30,8 @@ return (
     ): <h4 className="text-light-cyan text-lg font-bold py-4 pb-8"> Loading ...</h4>
     }
     
-    <img className="mx-auto my-0" src="./assets/images/pattern-divider-desktop.svg" alt="" />
+    <img className="mx-auto my-0 hidden md:block" src="./assets/images/pattern-divider-desktop.svg" alt="" />
+    <img className="mx-auto my-0 block md:hidden" src="./assets/images/pattern-divider-mobile.svg" alt="" />
     <div className="absolute bg-neon-green rounded-full -bottom-5 left-2/4 -translate-x-2/4  hover:shadow-[1px_1px_14px_4px_#52ffa8]">
       <img className="hover:animate-spin p-3 cursor-pointer"
         src="./assets/images/icon-dice.svg" onClick={getAdvice}/>
