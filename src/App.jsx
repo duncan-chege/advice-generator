@@ -34,7 +34,7 @@ return (
     <img className="mx-auto my-0 block md:hidden" src="./assets/images/pattern-divider-mobile.svg" alt="" />
     <div className="absolute bg-neon-green rounded-full -bottom-5 left-2/4 -translate-x-2/4  hover:shadow-[1px_1px_14px_4px_#52ffa8]">
       <img className="hover:animate-spin p-3 cursor-pointer"
-        src="./assets/images/icon-dice.svg" onClick={getAdvice}/>
+        src="./assets/images/icon-dice.svg" onClick={getAdvice} alt="" />
     </div>
   </div>
 </div>
