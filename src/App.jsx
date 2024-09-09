@@ -6,10 +6,10 @@ return (
     <h1 className="text-light-cyan text-2xl font-bold py-4 pb-8">"If you are working on something that you really care
       about, you
       don't have to be pushed"</h1>
-    <img className="mx-auto my-0" src="/src/assets/images/pattern-divider-desktop.svg" alt="" />
+    <img className="mx-auto my-0" src="./assets/images/pattern-divider-desktop.svg" alt="" />
     <div className="absolute bg-neon-green p-3 rounded-full -bottom-5 left-2/4 -translate-x-2/4 ">
       <img className="hover:animate-spin"
-        src="/src/assets/images/icon-dice.svg" />
+        src="./assets/images/icon-dice.svg" />
     </div>
   </div>
 </div>
