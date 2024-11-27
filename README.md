@@ -1,8 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Advice generator app
 
-Currently, two official plugins are available:
+View random pieces of advice using this app
+## A user should:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate a new piece of advice by clicking the dice icon
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+## Tech Stack
+
+- **Client:** React, Tailwind CSS, Advice Slip API
+- **Module Bundler:** Vite
+
+## Live Link
+
+View the project > [here](https://duncan-chege.github.io/advice-generator)
+
+
+## Acknowledgements
+
+Thank you Frontend Mentor for the project. View the full project scope > [here](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
